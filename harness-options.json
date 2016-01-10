@@ -1,0 +1,57 @@
+{
+ "abort_on_missing": false, 
+ "check_memory": false, 
+ "enable_e10s": false, 
+ "is-sdk-bundled": false, 
+ "jetpackID": "jid1-NRlxJPBfQtNLcw@jetpack", 
+ "loader": "addon-sdk/lib/sdk/loader/cuddlefish.js", 
+ "main": "main", 
+ "mainPath": "baow-paint/main", 
+ "manifest": {
+  "baow-paint/main": {
+   "docsSHA256": null, 
+   "jsSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", 
+   "moduleName": "main", 
+   "packageName": "baow-paint", 
+   "requirements": {
+    "sdk/addon/window": "sdk/addon/window", 
+    "sdk/self": "sdk/self", 
+    "sdk/tabs": "sdk/tabs", 
+    "sdk/tabs/utils": "sdk/tabs/utils", 
+    "sdk/ui/button/action": "sdk/ui/button/action", 
+    "sdk/window/utils": "sdk/window/utils"
+   }, 
+   "sectionName": "lib"
+  }
+ }, 
+ "metadata": {
+  "addon-sdk": {
+   "description": "Add-on development made easy.", 
+   "keywords": [
+    "javascript", 
+    "engine", 
+    "addon", 
+    "extension", 
+    "xulrunner", 
+    "firefox", 
+    "browser"
+   ], 
+   "license": "MPL 2.0", 
+   "name": "addon-sdk"
+  }, 
+  "baow-paint": {
+   "author": "baow", 
+   "description": "Draw shapes, lines, and add text to the current webpage and take screenshot with Baow Resources Manager", 
+   "license": "MPL 2.0", 
+   "main": "main", 
+   "name": "baow-paint", 
+   "version": "1.0"
+  }
+ }, 
+ "name": "baow-paint", 
+ "parseable": false, 
+ "preferencesBranch": "jid1-NRlxJPBfQtNLcw@jetpack", 
+ "sdkVersion": "1.17", 
+ "staticArgs": {}, 
+ "verbose": false
+}

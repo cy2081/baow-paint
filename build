@@ -1,0 +1,4 @@
+#!/bin/bash
+file=baow-paint-2.1.xpi
+rm $file
+zip -r $file bootstrap.js defaults harness-options.json install.rdf locale locales.json resources
